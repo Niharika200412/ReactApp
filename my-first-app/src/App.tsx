@@ -10,6 +10,8 @@ function App() {
       <div className="container knowing">
         <div className="row _menu-panel">
           <div>Header</div>
+          <h1>hi</h1>
+         
         </div>
          <div className="row _body-panel">
           <div className="col"><div><h1>RSI</h1></div></div>
