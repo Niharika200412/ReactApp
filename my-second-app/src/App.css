@@ -1,0 +1,84 @@
+#root {
+  width:100%;
+  margin: 0 auto;
+  height:100vh;
+  text-align: center;
+}
+.container{
+  max-width:100%;
+}
+
+._mainpanel1{
+  background-color: gray;
+  height:50px;
+}
+._mainpanel2{
+  background-color: antiquewhite;
+  height:100px;
+}
+._mainpanel3{
+  
+  height:calc(100vh - 150px);
+}
+.first-row{
+  height:100px;
+}
+
+.second-row{
+height:400px;
+}
+
+.third-row{
+height:calc(79vh - 500px);
+}
+.rose-div{
+  border-style:solid;
+  border-width:2px;
+  height:50px;
+  width:50px;
+  background-image: url("./assets/jasmie.png") ;
+  background-repeat: no-repeat, repeat;
+  transform: rotate(45deg);
+  
+
+
+}
+.rose-div2{
+width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #555;
+  background-image: url("./assets/react.svg") repeat ;
+}
+.rose-div1{
+   border-style:solid;
+  border-width:2px;
+  height:50px;
+  width:50px;
+  border-radius: 50%;
+  background-image: url("./assets/react.svg") ;
+  background-repeat: no-repeat, repeat;
+}
+#viewDiv{
+  height:100%;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+.read-the-docs {
+  color: #888;
+}
