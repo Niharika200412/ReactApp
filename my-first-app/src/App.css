@@ -1,0 +1,54 @@
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+      height: 100%;
+}
+
+._menu-panel{
+  height: 70px;
+  background-color: aliceblue;
+}
+
+._body-panel{
+  height: 200px;
+}
+
+._cards-panel{
+  height: calc(100vh - 300px);
+  /* background-color: aqua; */
+      /* height: calc(100% - 250px); */
+  margin-left: 1%;
+}
+
+._mycards{
+  width: 14rem;
+  height: 100%;
+ 
+  background-color: rgb(216, 124, 124);
+}
+
+._headerCard{
+  height: 100px;
+  background-color: beige;
+}
+._bodyCard{
+  height:100%;
+  background-color: azure;
+}
+._footerCard{
+  height: 50px;
+  background-color: gray;
+}
+
+.container{
+  max-width: 100%;
+  padding: 0;
+margin: 0;
+}
+
+.row>*{
+padding: 0;
+margin: 0;
+}
